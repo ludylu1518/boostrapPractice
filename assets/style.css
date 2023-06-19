@@ -1,11 +1,14 @@
 footer {
-    position: relative;
     background-color: lightgrey;
-    bottom: 0;
 }
 
 footer ul li {
     list-style: none;
+}
+
+.container {
+    background-color: lightblue;
+    border-radius: 5px;
 }
 
 .content {
@@ -30,3 +33,14 @@ footer ul li {
     text-decoration: none;
     color: black;
 } 
+
+.border-right {
+    border-right: 1px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+    .border-right {
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+}
