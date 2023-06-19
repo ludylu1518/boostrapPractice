@@ -1,0 +1,32 @@
+footer {
+    position: relative;
+    background-color: lightgrey;
+    bottom: 0;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.content {
+    background-color: lightblue;
+    margin-bottom: 0;
+}
+
+.content > h1 {
+    background-color: lightgrey;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.rest-list > .col-md-2 {
+    margin-bottom: 0;
+}
+
+.rest-list > .col-md-2:hover {
+    border: 1px solid black;
+}
+
+.rest-list > .col-md-2 > a {
+    text-decoration: none;
+    color: black;
+} 
